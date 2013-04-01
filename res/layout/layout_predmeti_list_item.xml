@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="60" >
+
+    <TextView
+        android:id="@+predmeti/listIme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="14"
+        android:gravity="center"
+        android:text="Hrvatski jezik"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+predmeti/list_obrisi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@color/crvena1"
+        android:padding="5dp"
+        android:src="@drawable/ic_minus"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+predmeti/list_prvi"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="7"
+        android:background="@color/plava1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="5"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+predmeti/list_drugi"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="7"
+        android:background="@color/ruzicasta1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="4"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+predmeti/list_treci"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="7"
+        android:background="@color/plava2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+predmeti/list_cetvrti"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="7"
+        android:background="@color/ruzicasta2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+predmeti/list_peti"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="7"
+        android:background="@color/zuta1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+predmeti/list_sesti"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="7"
+        android:background="@color/ruzicasta3"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="23"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

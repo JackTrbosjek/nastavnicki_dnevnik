@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nastavnički Dnevnik</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <color name="bijela">#FFFFFF</color>
+    <color name="crvena1">#C20A0D</color>
+    <color name="crvena2">#DB2C2F</color>
+    <color name="zelena1">#007D0A</color>
+    <color name="zelena2">#0BBD11</color>
+    <color name="zelena3">#2CB012</color>
+    <color name="plava1">#3F7AE8</color>
+    <color name="plava2">#115FF0</color>
+    <color name="plava3">#0022B8</color>
+    <color name="navi_blue">#1B62C4</color>
+    <color name="zuta1">#CCC91F</color>
+    <color name="zuta2">#B8B504</color>
+    <color name="ruzicasta1">#E153E6</color>
+    <color name="ruzicasta2">#9F1AA3</color>
+    <color name="ruzicasta3">#BF69C2</color>
+    <color name="ruzicasta4">#681B6B</color>
+    <color name="siva">#756E71</color>
+    <color name="button_plava12">#021EBA</color>
+    <color name="button_plava11">#6597C9</color>
+    <color name="button_plava22">#0032C9</color>
+    <color name="button_plava21">#657EC9</color>
+    <color name="button_plava32">#0003C9</color>
+    <color name="button_plava31">#6566C9</color>
+    <color name="button_plava42">#1B00C9</color>
+    <color name="button_plava41">#7265C9</color>
+    <color name="button_crvena12">#C90014</color>
+    <color name="button_crvena11">#C9656F</color>
+    <color name="button_crvena22">#C9001B</color>
+    <color name="button_crvena21">#C96572</color>
+    <color name="button_zelena12">#00C907</color>
+    <color name="button_zelena11">#65C968</color>
+    <color name="button_zelena22">#09AD00</color>
+    <color name="button_zelena21">#5BAD57</color>
+    <color name="button_zelena32">#25AD00</color>
+    <color name="button_zelena31">#69AD57</color>
+
+    <string name="title_activity_kalendar">Kalendar</string>
+    <string name="title_activity_godina">Godina</string>
+    <string name="title_activity_popis_ucenika">Popis Ucenika</string>
+    <string name="RedniBroj">Redni\nbroj</string>
+    <string name="nasumicniUcenik">Nasumični\nučenik</string>
+    <string name="title_activity_ucenici_raspored">Ucenici Raspored</string>
+    <string name="title_activity_uspjeh_ucenici">Uspjeh Ucenici</string>
+    <string name="title_activity_predmeti">Predmeti</string>
+    <string name="infoText">Ocjene se popunjavaju same ako su uneseni učenici i njihove ocjene predmeta.</string>
+    <string name="title_activity_plan_rada">Plan Rada</string>
+    <string name="title_activity_moje_obaveze">Moje Obaveze</string>
+    <string name="rad_s_ucenicima">RAD S UČENICIMA\n-analiza rada i ponašanja\n-pomoć slabijim učenicima\n-različite razredne aktivnosti, proslave i sl.</string>
+    <string name="suradnja_s_roditeljima">SURADNJA S RODITELJIMA\nI. roditeljski sastanci\n-analiza rada i ponašanja\n-predavanja\n-ostale razredne aktivnosti\nII. pojedinačni razgovori</string>
+    <string name="suradnja_s_clanovima">SURADNJA S ČLANOVIMA RV-a I STRUČNOM SLUŽBOM\n-upoznavanje članova RV-a s razrednim odjelom\n-analiza rada i ponašanja</string>
+    <string name="kulturna_i_drustvena">KULTURNA I DRUŠTVENA DJELATNOST\n-priredbe u razrednom odjelu\n-akademije: u školi i izban škole\n-susreti s piscima\n-posjeti izvan škole-natjecanja</string>
+    <string name="zdravstvena_i_socijalna">ZDRAVSTVENA I SOCIJALNA ZAŠTITA\n-zdravstveni pregledi\n-predavanja\n-izleti:\n  poludnevni\n  cijelodnevni\n-ekskurzije</string>
+    <string name="administrativni">ADMINISTRATIVNI POSLOVI\n-sređivanje dnevnika i imenika\n-unošenje zapisnika sa sastanka RV-a, roditeljskih sastanaka, upis statističkih podataka i sl.\n-pisanje đačkih knjižica i svjedodžbi</string>
+    <string name="title_activity_moj_raspored">Moj Raspored</string>
+    <string name="infoString">O programu: \nProgram je izrađen za nastavnike u školama i trebao je biti prodan kao takav ali projekt je propao tako je sada besplatan za sve koji ga žele koristit</string>
+
+</resources>

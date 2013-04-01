@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/plava3"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    android:weightSum="10" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+planRada/dialog_list_nositelj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nositelj:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+planRada/dialog_list_planirano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planirano vrijeme:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+planRada/dialog_list_ostvareno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vrijeme ostvarivanja:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+planRada/dialog_list_uredi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@color/plava2"
+            android:padding="3dp"
+            android:text="Uredi"
+            android:textColor="@color/bijela" />
+
+        <Button
+            android:id="@+planRada/dialog_list_obrisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/crvena2"
+            android:padding="3dp"
+            android:text="Obriši"
+            android:textColor="@color/bijela" />
+
+    </LinearLayout>
+
+</LinearLayout>

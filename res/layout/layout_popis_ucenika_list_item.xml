@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+popisUcenika/list_pregled"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:padding="5dp"
+    android:layout_margin="3dp" >
+
+    <TextView
+        android:id="@+popisUcenika/list_redni_broj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="r.b."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+popisUcenika/list_ime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:layout_weight="2.25"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Ime"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+popisUcenika/list_prezime"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="2dp"
+         android:layout_weight="3.25"
+         android:gravity="center"
+         android:padding="3dp"
+         android:text="Prezime"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <ImageButton
+         android:id="@+popisUcenika/list_dodatno"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1.5"
+         android:background="@drawable/button_selector_plava2"
+         android:padding="5dp"
+         android:src="@drawable/ic_ucenik_edit" />
+
+     <RelativeLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1.5" >
+
+         <ImageButton
+             android:id="@+popisUcenika/list_obrisi"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:layout_weight="0.5"
+             android:background="@color/crvena1"
+             android:padding="5dp"
+             android:src="@drawable/ic_minus" 
+             android:visibility="invisible"/>
+
+     </RelativeLayout>
+
+</LinearLayout>

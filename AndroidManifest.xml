@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nastavnickidnevnik.main"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <supports-screens
+        android:largeScreens="false"
+        android:normalScreens="false"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <compatible-screens>
+        <screen
+            android:screenSize="xlarge" />
+    </compatible-screens>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="nastavnickidnevnik.main.Pocetna"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.Kalendar"
+            android:label="@string/title_activity_kalendar" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.Godina"
+            android:label="@string/title_activity_godina" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.PopisUcenika"
+            android:label="@string/title_activity_popis_ucenika"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.UceniciRaspored"
+            android:label="@string/title_activity_ucenici_raspored"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.UspjehUcenici"
+            android:label="@string/title_activity_uspjeh_ucenici" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.Predmeti"
+            android:label="@string/title_activity_predmeti"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.PlanRada"
+            android:label="@string/title_activity_plan_rada"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.MojeObaveze"
+            android:label="@string/title_activity_moje_obaveze"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="nastavnickidnevnik.main.MojRaspored"
+            android:label="@string/title_activity_moj_raspored"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>
