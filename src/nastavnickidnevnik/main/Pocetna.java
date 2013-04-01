@@ -103,5 +103,5 @@ public class Pocetna extends Activity implements OnClickListener {
 		if(v==infoButton){
 			new InfoDialog(this).show();
 		}
-	}
+	}// proba novog za git
 }
